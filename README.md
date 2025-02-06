@@ -30,7 +30,7 @@ RC7 is compatible with a variety of scripts, including:
 
 Dex-
 Ro-Xploit 6.0-
-Infinite Yeild-
+Infinite Yeild
 
 
 ## ❗ Disclaimer  
