@@ -26,11 +26,10 @@ Some antivirus programs may mistakenly flag **RC7** as a potential threat. This 
 **Note:** This is a **common issue** with executors and not a sign that RC7 is harmful. Always download from trusted sources!  
 
 ## 📝 Supported Scripts  
-RC7 is compatible with a variety of scripts, including:  
+RC7 is compatible with a variety of scripts, including:
+
 Dex
-
 Ro-Xploit 6.0
-
 Infinite Yeild
 
 
