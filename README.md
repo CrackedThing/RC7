@@ -28,9 +28,9 @@ Some antivirus programs may mistakenly flag **RC7** as a potential threat. This 
 ## 📝 Supported Scripts  
 RC7 is compatible with a variety of scripts, including:
 
-Dex
-Ro-Xploit 6.0
-Infinite Yeild
+Dex-
+Ro-Xploit 6.0-
+Infinite Yeild-
 
 
 ## ❗ Disclaimer  
