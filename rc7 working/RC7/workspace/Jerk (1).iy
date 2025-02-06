@@ -1,0 +1,52 @@
+Jerking = false
+local Plugin = {
+	["PluginName"] = "Jerk Off!",
+	["PluginDescription"] = [[in the stripped club. straight up "jorking it". and by "it", haha, well. let's justr say. My peanits]],
+	["Commands"] = {
+		["jerk"] = {
+			["ListName"] = "jerk / masturbate",
+			["Description"] = "Makes you jork it.",
+			["Aliases"] = {"masturbate"},
+			["Function"] = function(args,speaker)
+                if Jerking then return end
+                Jerking = true
+                local humanoid = speaker.Character:FindFirstChildWhichIsA("Humanoid")
+                
+                JerkAnim = Instance.new("Animation")
+                JerkAnim.AnimationId = not r15(speaker) and "rbxassetid://72042024" or "rbxassetid://698251653"
+                Jerk = humanoid:LoadAnimation(JerkAnim)
+                
+                task.spawn(function()
+                    while task.wait() do
+                        if not Jerking then return end
+                        Jerk:Play()
+                        Jerk:AdjustSpeed(1 or r15(speaker) and .7)
+                        Jerk.TimePosition = not r15(speaker) and .8 or .6
+                        task.wait(.1)
+                    
+                        while Jerk.TimePosition < (not r15(speaker) and .9 or .7) do task.wait(.1)end
+                    
+                        Jerk:Stop()
+                    end
+                end)
+                          
+                function StopJerking()
+                    Jerking = false
+                    Jerk:Stop()
+                    JerkAnim:Destroy()
+                end
+                humanoid.Died:Connect(StopJerking)           
+			end
+		},
+		["unjerk"] = {
+			["ListName"] = "unjerk / unmasturbate",
+			["Description"] = "Makes you NOT jork it.",
+			["Aliases"] = {"unmasturbate"},
+			["Function"] = function(args,speaker)
+                StopJerking()
+            end
+		}
+	}
+}
+
+return Plugin
