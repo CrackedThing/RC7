@@ -9,5 +9,7 @@ Inject go to Settings > View > Hook Roblox (inject at ingame or homepage)
 Step 5:
 If it kick you out just go to Local Disk C:\Users\YourUser\AppData\Local\Roblox\logs
 (delete the logs folder and then restart your pc)
-NOTE:
-This is not actual RC7 and it just a fan made rc7.
+Credit:
+Made by ur motha and
+zer0594
+OͥrͣzͫSᵍcͦrͩipt
